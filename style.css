@@ -1,0 +1,28 @@
+body {
+	background-color: #4295f4;
+}
+
+#street {
+	border-bottom: 7px solid black;
+}
+
+#pumpkin{
+	background: url("spritesheet.png");
+ 	width: 2369px;
+    height: 699px;
+	animation:walk 1s steps(4, end) infinite;  /*.7s*/
+				 	
+				 
+}
+
+@keyframes walk{
+	from{
+		background-position: 0px;
+	}
+	
+	to {
+		background-position: 460px;
+	}
+
+}
+
